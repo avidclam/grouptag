@@ -1,4 +1,6 @@
 # Grouptag, categorization by rules
+> This README is available as a [notebook at Google Colab](https://colab.research.google.com/drive/1g46psQ6cARZdoVpJw6j51DGfqHLDjqtO?usp=sharing).
+
 Grouptag is a Python package aimed at pattern- or keyword-based categorization (tagging) of text records.
 It's a companion to proven technologies: pattern part relies on the capabilities of Pandas Series, while keyword search is based on CountVectorizer from scikit-learn.
 ## Use Case Example
@@ -119,3 +121,7 @@ Instant feedback is very important when ruleframe is being designed.
 Also, ruleframe is a table (author uses Excel to edit ruleframes) with simple logic 
 which is quite easy to explain to a subject-matter expert. 
 This allows data analysis teams to split efforts between technical and expert tasks.
+# Installation
+```bash
+pip install git+https://github.com/avidclam/grouptag.git
+```
